@@ -1,0 +1,1 @@
+SELECT predicted_late, COUNT(*) FROM orders_predictions GROUP BY predicted_late;
